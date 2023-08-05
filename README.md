@@ -2,7 +2,11 @@
 
 Behavior fairness analysis metric for model outputs.\
 \
-**Data:** predicted probabilities, actual target, and sensitive attributes.\
+**Data:** 
+- predicted probabilities
+- actual target
+- sensitive attributes.
+  
 **Output:** 
 - MADD value
 - p-value from MADD permutation test (if number of bootstraps specified)
